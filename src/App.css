@@ -9,13 +9,31 @@
 .imgcontainer{
   overflow: hidden;
 }
+.itemlist{
+  font-size: 1.2rem;
+}
+.itemlist:hover{
+  cursor: pointer;
+  color:rgb(76, 0, 255);
+  text-decoration: underline;
+}
+.imgItem{
+  transition: all 1.1s linear;
 
+}
+.imgItem:hover{
+cursor: pointer;
+transform: scale(1.09);
+}
 
 @media only screen and (max-width: 800px) {
   
   .rotatimg {
     transform: scale(1.3);
    }
+   .itemlist{
+    font-size: .9rem;
+  }
 }
 
 
